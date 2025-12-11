@@ -1,1 +1,1 @@
-[]
+[{"endpoint":"/structure/snapshot","body":{"workspace_id":"L1VzZXJzL2FudGhv","ts":"2025-12-11T20:19:28.754Z","tree_hash":"fccdf95d088ba35b9f8909956c7a0a3248c77ef4a6b5f6e9390681fc4683ff8d","added":[{"path":"parking_animation.gif","size":0,"mtime":1765484366172,"ext":"gif"}],"modified":[],"removed":[]}}]
