@@ -135,13 +135,13 @@ def main():
         frames.append(frame)
 
     # Create animated GIF
-    # Each frame displays for 2 seconds (duration = 2.0)
+    # Each frame displays for 4 seconds (duration = 4.0) - slower for better viewing
     print("Creating animated GIF...")
-    imageio.mimsave('parking_animation.gif', frames, duration=2.0, loop=0)
+    imageio.mimsave('parking_animation.gif', frames, duration=4.0, loop=0)
 
     print(f"Animation saved as 'parking_animation.gif'")
     print(f"Total frames: {len(frames)}")
-    print(f"Duration per frame: 2 seconds")
+    print(f"Duration per frame: 4 seconds")
 
 if __name__ == "__main__":
     main()
