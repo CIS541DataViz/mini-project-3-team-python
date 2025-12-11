@@ -137,7 +137,7 @@ def main():
     # Create animated GIF
     # Each frame displays for 4 seconds (duration = 4.0) - slower for better viewing
     print("Creating animated GIF...")
-    imageio.mimsave('parking_animation.gif', frames, duration=4.0, loop=0)
+    imageio.mimsave('parking_animation.gif', frames, duration=4000, loop=0)
 
     print(f"Animation saved as 'parking_animation.gif'")
     print(f"Total frames: {len(frames)}")
